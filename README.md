@@ -4,5 +4,7 @@
 
 ### ___Sample views___
 
-![Pic 1]()
-![Pic 2]()
+![Pic 1](https://raw.githubusercontent.com/thameemk612/build-my-world-gazebo/master/git-img/1.png)
+
+
+![Pic 2](https://raw.githubusercontent.com/thameemk612/build-my-world-gazebo/master/git-img/2.png)
