@@ -1,0 +1,3 @@
+/home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/rebuild_cache.dir
+/home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/edit_cache.dir
+/home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/welcome.dir
