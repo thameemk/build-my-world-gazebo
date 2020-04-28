@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f62ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f62ae.dir/build.make CMakeFiles/cmTC_f62ae.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a7ea2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7ea2.dir/build.make CMakeFiles/cmTC_a7ea2.dir/build
 make[1]: Entering directory '/home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o   -c /home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_f62ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f62ae.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o  -o cmTC_f62ae 
-CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_a7ea2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a7ea2.dir/CheckSymbolExists.c.o   -c /home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a7ea2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7ea2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a7ea2.dir/CheckSymbolExists.c.o  -o cmTC_a7ea2 
+CMakeFiles/cmTC_a7ea2.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_f62ae.dir/build.make:97: recipe for target 'cmTC_f62ae' failed
-make[1]: *** [cmTC_f62ae] Error 1
+CMakeFiles/cmTC_a7ea2.dir/build.make:97: recipe for target 'cmTC_a7ea2' failed
+make[1]: *** [cmTC_a7ea2] Error 1
 make[1]: Leaving directory '/home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f62ae/fast' failed
-make: *** [cmTC_f62ae/fast] Error 2
+Makefile:126: recipe for target 'cmTC_a7ea2/fast' failed
+make: *** [cmTC_a7ea2/fast] Error 2
 
 File /home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf330/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf330.dir/build.make CMakeFiles/cmTC_cf330.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_44d2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44d2c.dir/build.make CMakeFiles/cmTC_44d2c.dir/build
 make[1]: Entering directory '/home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf330.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cf330.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cf330
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf330.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cf330.dir/CheckFunctionExists.c.o  -o cmTC_cf330 -lpthreads 
+Building C object CMakeFiles/cmTC_44d2c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_44d2c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44d2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44d2c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_44d2c.dir/CheckFunctionExists.c.o  -o cmTC_44d2c -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_cf330.dir/build.make:97: recipe for target 'cmTC_cf330' failed
-make[1]: *** [cmTC_cf330] Error 1
+CMakeFiles/cmTC_44d2c.dir/build.make:97: recipe for target 'cmTC_44d2c' failed
+make[1]: *** [cmTC_44d2c] Error 1
 make[1]: Leaving directory '/home/blacklist/Desktop/Udacity/build-my-world-gazebo/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cf330/fast' failed
-make: *** [cmTC_cf330/fast] Error 2
+Makefile:126: recipe for target 'cmTC_44d2c/fast' failed
+make: *** [cmTC_44d2c/fast] Error 2
 
 
